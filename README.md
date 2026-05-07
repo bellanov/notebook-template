@@ -9,8 +9,8 @@ First, a local project environment needs to be created, then the project's modul
 1. Clone the repository.
 
    ```sh
-   git clone https://github.com/bellanov/nootebook-template.git
-   cd nootebook-template
+   git clone https://github.com/bellanov/notebook-template.git
+   cd notebook-template
    ```
 
 2. Create a virtual environment.
@@ -30,6 +30,20 @@ First, a local project environment needs to be created, then the project's modul
    deactivate
    ```
 
+4. Create environment file(s) to store configurations.
+
+   ```sh
+   # Automatically Parsed
+   touch .env.shared
+   touch .env.secrets
+   ```
+
+5. Execute a Notebook.
+
+   ```sh
+   marimo edit notebooks/env.py
+   ```
+
 ## Testing
 
 Execute unit tests to validate the installation.
@@ -45,6 +59,7 @@ scripts/test.sh
 
 ```sh
 marimo run notebooks/env.py
+marimo run notebooks/bar.py
 ```
 
 ## Edit Notebook
@@ -53,4 +68,5 @@ marimo run notebooks/env.py
 
 ```sh
 marimo edit notebooks/env.py
+marimo edit notebooks/bar.py
 ```

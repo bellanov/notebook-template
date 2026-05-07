@@ -19,7 +19,8 @@ registry.register(
             #   **dotenv_values(".env.secrets")
             #
             # Load shared development variables
-            **dotenv_values(".env.shared")
+            **dotenv_values(".env.shared"),
+            **dotenv_values(".env.secrets")
         }
     ),
 )
