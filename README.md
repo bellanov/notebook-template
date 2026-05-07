@@ -44,6 +44,7 @@ scripts/test.sh
 *Execute* any of the Notebooks in the `notebooks/` directory using *Marimo*.
 
 ```sh
+marimo run notebooks/env.py
 ```
 
 ## Edit Notebook
