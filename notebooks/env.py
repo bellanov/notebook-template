@@ -34,7 +34,7 @@ def _(mo):
 
 @app.cell
 def _(ENV):
-    ENV, ENV["DATABASE_HOST"], ENV["DATABASE_USER"], ENV["DATABASE_PASSWORD"]
+    ENV
     return
 
 
