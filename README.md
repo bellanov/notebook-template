@@ -20,11 +20,7 @@ First, a local project environment needs to be created, then the project's modul
    python3 -m venv .venv
 
    # Activate Virtual Environment
-
-   # Linux
    source .venv/bin/activate
-
-   # Windows
    .\.venv\Scripts\Activate.ps1
 
    # Install Dependencies
