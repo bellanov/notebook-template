@@ -31,11 +31,6 @@ omit = [
     "*/test_*.py",
 ]
 
-
 [[tool.mypy.overrides]]
-module = "notebooks.sports"
-disable_error_code = ["attr-defined", "no-untyped-def"]
-
-[[tool.mypy.overrides]]
-module = "notebooks.account"
+module = "notebooks.env"
 disable_error_code = ["attr-defined", "no-untyped-def"]

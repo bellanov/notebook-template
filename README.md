@@ -44,8 +44,6 @@ scripts/test.sh
 *Execute* any of the Notebooks in the `notebooks/` directory using *Marimo*.
 
 ```sh
-marimo run notebooks/account.py
-marimo run notebooks/sports.py
 ```
 
 ## Edit Notebook
@@ -53,6 +51,5 @@ marimo run notebooks/sports.py
 *Edit* any of the Notebooks in the `notebooks/` directory using *Marimo*.
 
 ```sh
-marimo edit notebooks/account.py
-marimo edit notebooks/sports.py
+marimo edit notebooks/env.py
 ```

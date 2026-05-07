@@ -6,11 +6,8 @@ app = marimo.App(width="medium")
 
 @app.cell
 def _():
-    from collections import defaultdict
 
-    import httpx
     import marimo as mo
-    import matplotlib.pyplot as plt
 
     from notebooks.domain.environment import registry
 
