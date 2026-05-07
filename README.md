@@ -20,7 +20,12 @@ First, a local project environment needs to be created, then the project's modul
    python3 -m venv .venv
 
    # Activate Virtual Environment
+
+   # Linux
    source .venv/bin/activate
+
+   # Windows
+   .\.venv\Scripts\Activate.ps1
 
    # Install Dependencies
    pip install -r requirements.txt -r dev-requirements.txt
@@ -33,9 +38,8 @@ First, a local project environment needs to be created, then the project's modul
 4. Create environment file(s) to store configurations.
 
    ```sh
-   # Automatically Parsed
+   # Automatically parsed and stored in ENV dictionary.
    touch .env.shared
-   touch .env.secrets
    ```
 
 5. Execute a Notebook.
