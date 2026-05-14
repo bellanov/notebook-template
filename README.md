@@ -35,7 +35,7 @@ First, a local project environment needs to be created, then the project's modul
 
    ```sh
    # Automatically parsed and stored in ENV dictionary.
-   touch .env.shared
+   touch .env
    ```
 
 5. Execute a Notebook.
