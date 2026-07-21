@@ -1,4 +1,4 @@
-"""Registry Model."""
+"""Registry Models."""
 
 from abc import ABC, abstractmethod
 from typing import Any
@@ -7,7 +7,11 @@ type Service = Any
 
 
 class Registry(ABC):
-    """Generic Registry."""
+    """Generic Registry.
+    
+    Attributes:
+        services: Key-value pairs representing the registered services.
+    """
 
     services: dict[str, Service]
 

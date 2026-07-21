@@ -1,4 +1,4 @@
-"""Configuration Model."""
+"""Configuration Models."""
 
 from abc import ABC, abstractmethod
 
@@ -6,7 +6,11 @@ type Config = dict
 
 
 class Configuration(ABC):
-    """Generic Configuration."""
+    """Generic Configuration.
+    
+    Attributes:
+        config: Key-value pairs representing the configuration.
+    """
 
     config: Config
 

@@ -5,7 +5,7 @@ Initialize the environment configuration using environment files defined locally
 
 from dotenv import dotenv_values
 
-from notebooks.domain.models.Configuration import EnvironmentConfiguration
+from notebooks.domain.models.configuration import EnvironmentConfiguration
 from notebooks.domain.registry import registry
 
 registry.register(
